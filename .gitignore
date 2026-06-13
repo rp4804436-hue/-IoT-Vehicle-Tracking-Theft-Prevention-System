@@ -1,0 +1,19 @@
+# Exclude Python virtual environment folders
+venv/
+.venv/
+Env/
+env/
+
+# Byte-compiled runtime binaries
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local database arrays and compiled telemetry logs
+data/tracking_logs.csv
+outputs/safety_report.pdf
+
+# Integrated Development Environment artifacts
+.vscode/
+.idea/
+.DS_Store
